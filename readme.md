@@ -54,13 +54,13 @@ Follow the cells in the notebook sequentially:
 
 1.  **Import Libraries**: Run the first code cell to import all required libraries.
 2.  **Mount Google Drive**: Execute the drive mounting cell.
-3.  **Load Data**: The `JDgSv9C12Jzr` cell loads `train_df` and `test_df` and performs initial cleaning.
-4.  **Encode Text**: The `Mns2qGEc2tJV` cell uses `DistilBERT` to encode text. It will load pre-computed embeddings if available or compute and save them.
-5.  **Encode Images**: The `oT6Osyxk24FR` cell uses `EfficientNet` to encode images. Similar to text, it loads pre-computed embeddings or computes and saves them.
-6.  **Extract Structured Features**: The `x0OGII2Y3S0D` cell extracts the `quantity` feature.
-7.  **Train Model**: The `9NHO3CrS3bqj` cell trains a `LightGBM` regressor. It will load a pre-trained model and processed data if available or train and save them.
-8.  **Predict on Test Set**: The `Zq4MG8Qx3iV9` cell prepares the test data and generates price predictions.
-9.  **Save Submission**: The `zwhxEGke3pCd` cell saves the predictions to `test_out.csv` in your Google Drive.
+3.  **Load Data**
+4.  **Encode Text**: Uses `DistilBERT` to encode text. It will load pre-computed embeddings if available or compute and save them.
+5.  **Encode Images**: Uses `EfficientNet` to encode images. Similar to text, it loads pre-computed embeddings or computes and saves them.
+6.  **Extract Structured Features**: Extracts the `quantity` feature.
+7.  **Train Model**: Trains a `LightGBM` regressor. It will load a pre-trained model and processed data if available or train and save them.
+8.  **Predict on Test Set**: Prepares the test data and generates price predictions.
+9.  **Save Submission**: Saves the predictions to `test_out.csv` in your Google Drive.
 
 ## Results
 
